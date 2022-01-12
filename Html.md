@@ -1,29 +1,29 @@
 # Notes
 Html notes
 --------------
- *html-hypertext markup language .It was used to develoup the web pages. using this we can easily develoup browser readable pages.
+ *  html-hypertext markup language .It was used to develoup the web pages. using this we can easily develoup browser readable pages.
  * invented by Tim Berners-Lee invented @1989
-*HTML is the standard markup language for Web pages.
+ * HTML is the standard markup language for Web pages.
 Main Tags 
 ---------------
-*The <!DOCTYPE html> declaration defines that this document is an HTML5 document
-*The <html> element is the root element of an HTML page
-*The <head> element contains meta information about the HTML page
-*The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
-*The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
-*The <h1> element defines a large heading
-*The <p> element defines a paragraph
+* The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+* The <html> element is the root element of an HTML page
+* The <head> element contains meta information about the HTML page
+* The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+* The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+* The <h1> element defines a large heading
+* The <p> element defines a paragraph
   
 Element:
 ==============  
-  <h1>My First Heading</h1>  full thing from start to end 
+ * <h1>My First Heading</h1>  full thing from start to end 
   
- Use of browser in Html
- =====================
-The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.
+Use of browser in Html
+=====================
+* The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.
 
-  Html structure
-  =================
+ Html structure
+ =================
   <html>                              ------html root element every element start with html tag
     <head>                            ------head is the container contain all meta details about the webpage
       
@@ -38,8 +38,8 @@ The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML doc
   
  * To create Html page you need notepad or textEditors
   
-  The <!DOCTYPE> Declaration
-  ---------------------------
+ The <!DOCTYPE> Declaration
+ ---------------------------
 *The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.
 
 *It must only appear once, at the top of the page (before any HTML tags).
