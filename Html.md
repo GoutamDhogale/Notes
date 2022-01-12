@@ -134,16 +134,20 @@ Example
   HTML Text Formatting
   --------------------
   * HTML contains several elements for defining text with a special meaning.
-  *&ltbgt; - Bold text     -------------<b>This text is bold</b>    ---without any extra importance.
-    &lt;strong&gt; - Important text------<strong>This text is important!</strong>      -----defines text with strong importance.
-    &lt;i&gt;- Italic text-----<i>This text is italic</i>--------defines a part of text in an alternate voice or mood
-    &lt;em&gt; - Emphasized text--- <em>This text is emphasized</em>------------verbal stress.
-    &lt;mark&gt; - Marked text---------- highlighted
-    &lt;small&gt; - Smaller text
-    &lt;del&gt; - Deleted text
-    &lt;ins&gt; - Inserted text---------------defines a text that has been inserted into a document. Browsers will usually underline inserted text:
-    &lt;sub&gt; - Subscript text-----------Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O:
-    &lt;sup&gt; - Superscript text----------Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]:
+  * &lt;b &gt; - Bold text
+    &lt;b&gt;This text is bold&lt;/b&gt;   -without any extra importance.
+  * &lt;strong&gt; - Important text
+      &lt;strong&gt;This text is important!&lt;/strong&gt;- defines text with strong importance.
+  * &lt;i&gt;- Italic text
+     &lt;i&gt;This text is italic&lt;/i&gt;-defines a part of text in an alternate voice or mood
+  * &lt;em&gt; - Emphasized text
+    &lt;em&gt;This text is emphasized&lt;/em&gt;--verbal stress.
+  * &lt;mark&gt; - Marked text--- highlighted
+  * &lt;small&gt; - Smaller text
+  * &lt;del&gt; - Deleted text
+  * &lt;ins&gt; - Inserted text-defines a text that has been inserted into a document. Browsers will usually underline inserted text:
+  * &lt;sub&gt; - Subscript text-Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. </br>Subscript text can be used for chemical formulas, like H2O:
+  * &lt;sup&gt; - Superscript text-Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]:
   ===============================================================================================
       
 
