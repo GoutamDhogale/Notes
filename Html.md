@@ -1,8 +1,8 @@
 # Notes
 Html notes
 --------------
-        html-hypertext markup language .It was used to develoup the web pages. using this we can easily develoup browser readable pages.
-    * invented by Tim Berners-Lee invented @1989
+ *html-hypertext markup language .It was used to develoup the web pages. using this we can easily develoup browser readable pages.
+ * invented by Tim Berners-Lee invented @1989
 *HTML is the standard markup language for Web pages.
 Main Tags 
 ---------------
