@@ -17,15 +17,15 @@ Main Tags
 * The &lt;p&gt; element defines a paragraph
   
 Element:
-==============  
+------- 
  * &lt;h1&gt;My First Heading&lt/h1&gt; full thing from start to end 
   
 Use of browser in Html
-=====================
+----------------
 * The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.
 
  Html structure
- =================
+ -------------
   <pre> 
 &lt;div class="html"&gt; 
     &lt;html&gt; 
@@ -36,27 +36,31 @@ Use of browser in Html
     &lt;/html&gt; 
 &lt;/div&gt; 
 </pre> 
-  ==================================================================
   
  * To create Html page you need notepad or textEditors
+ 
+  ==================================================================
   
  The &lt;!DOCTYPE&gt; Declaration
  ---------------------------
-* The &lt;!DOCTYPE&gt;declaration represents the document type, and helps browsers to display web pages correctly.
+ 
+  * The &lt;!DOCTYPE&gt;declaration represents the document type, and helps browsers to display web pages correctly.
 
-* It must only appear once, at the top of the page (before any HTML tags).
+  * It must only appear once, at the top of the page (before any HTML tags).
 
-* The &lt;!DOCTYPE&gt; declaration is not case sensitive.
+  * The &lt;!DOCTYPE&gt; declaration is not case sensitive.
   
   * HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags: &lt;h1&gt;goutam&lt;/h1&gt;
   
   * HTML paragraphs are defined with the &lt;p&gt; tag: &lt;p&gt; meeting is on&lt;/p&gt;
-  * HTML links are defined with the <-a> tag:
-   &lt;a href="https://www.w3schools.com" &gt;This is a link&lt;/a&gt;
+  * HTML links are defined with the &lt;a&gt; tag:
+   
+            &lt; a href="https://www.w3schools.com" &gt;This is a link &lt;/a &gt;
   * HTML images are defined with the &lt;img&gt; tag:
     The source file (src), alternative text (alt), width, and height are provided as attributes:
-    Example
-   &lt;img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"&gt;
+    <br>
+     Example
+           &lt;img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142" &gt;
   * The &lt;br&gt; tag defines a line break
   
   Importent points
@@ -76,12 +80,16 @@ Use of browser in Html
   * Attributes usually come in name/value pairs like: name="value"
   * The &lt;a&gt; tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:
   * Double quotes around attribute values are the most common in HTML, but single quotes can also be used.
-Example
-  &lt;a href="https://www.w3schools.com" &gt;Visit W3Schools &lt;/a&gt;
+       <br>
+        Example
+        <br>
+           &lt;a href="https://www.w3schools.com" &gt;Visit W3Schools &lt;/a&gt;
   
-  The &lt;img&gt; tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:
-Example
-  &lt;img src="img_girl.jpg"&gt;
+  * The &lt;img&gt; tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:
+        <br>
+        Example
+        <br>
+           &lt;img src="img_girl.jpg"&gt;
   
   URL Type:
   =========
@@ -99,8 +107,10 @@ Tip: It is almost always best to use relative URLs. They will not break if you c
  The style Attribute:
  ---------------------
  
-    * The style attribute is used to add styles to an element, such as color, font, size, and more.
+  *`The style attribute is used to add styles to an element, such as color, font, size, and more.
+  <br>
   Example:
+  <br>
     &lt;p style="color:red;" &gt;This is a red paragraph.&lt;/p&gt;
   
 ==========================================================
@@ -118,7 +128,7 @@ Tip: It is almost always best to use relative URLs. They will not break if you c
                  &lt; /body &gt;
             &lt; /html &gt;
           </pre>
-  
+ ================================================== 
   The title Attribute
   ---------------------
   * The title attribute defines some extra information about an element.
@@ -148,6 +158,68 @@ Example
   * &lt;ins&gt; - Inserted text-defines a text that has been inserted into a document. Browsers will usually underline inserted text:
   * &lt;sub&gt; - Subscript text-Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. </br>Subscript text can be used for chemical formulas, like H2O:
   * &lt;sup&gt; - Superscript text-Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]:
-  ===============================================================================================
-      
+  ==================================================================================
+
+HTML Tables:
+------------
+ * HTML tables allow web developers to arrange data into rows and columns.
+ * &lt;td&gt; stands for table data.
+ * &lt;tr&gt; stands for table row.
+ * &lt;th&gt; stand for table headder
+ * &lt;table&gt;	Defines a table
+ * &lt;th&gt;	Defines a header cell in a table
+ * &lt;tr&gt;	Defines a row in a table
+ * &lt;td&gt;	Defines a cell in a table
+ * &lt;caption&gt;	Defines a table caption
+ * &lt;colgroup&gt;	Specifies a group of one or more columns in a table for formatting
+ * &lt;col&gt;	Specifies column properties for each column within a <colgroup> element
+ * &lt;thead&gt;	Groups the header content in a table
+ * &lt;tbody&gt;	Groups the body content in a table
+ * &lt;tfoot&gt;	Groups the footer content in a table
+ ==========================================================================
+
+ HTML Lists
+ -------------
+ * HTML lists allow web developers to group a set of related items in lists.
+ * Unordered HTML List  An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the &lt;li&gt; tag.<br>
+ Example:<br>
+   &lt;ul&gt;
+        &lt;li&gt;cofee&lt;/li&gt;
+  &lt;/ul&gt;
+	*	Replace ul by ol it become ordered list
+	* In unordered list all list data not arrenged in a formet
+	<br>
+	Example
+	<br>
+			*	Coffee
+			*	Tea
+			*	Milk
+	<br>
+	
+	*	In ordered list all data are arrenged in an formate
+	<br>
+	Example:
+	<br>
+	1.Coffee
+	2.Tea
+	3.Milk
+	
+ ---------------------
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
 
