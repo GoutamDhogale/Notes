@@ -41,3 +41,35 @@ export class HelloWorldComponent {
   // The code in this class drives the component's behavior.
 }
 
+Templates
+---------
+* Every component has a templates we can define in inline or by the pathfile
+* you can insert the dynamic value by binding concept for Example if you want to show the message which is dynamically changeing the you cant simple write messgae inside the html file .at that time you have to mention the variable inside the .ts file inside the @component class then you can call that variable inside the html file by binding concept.
+* Example:
+<br>
+.ts code<br>
+import { Component } from '@angular/core';
+<br>
+
+@Component ({
+<br>
+  selector: 'hello-world-interpolation',
+  <br>
+  templateUrl: './hello-world-interpolation.component.html'
+})
+<br>
+export class HelloWorldInterpolationComponent {
+<br>
+    message = 'Hello, World!';
+    <br>
+}
+
+<br>
+
+.Html file code
+<br>
+&lt;p&gt;{{message}}&lt;/p&gt;
+<br>
+
+ <a href="https://angular.io/guide/what-is-angular">For more Info about Angular Component</a>
+
