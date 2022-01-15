@@ -1,3 +1,12 @@
+
+![image](https://user-images.githubusercontent.com/97591175/149611109-ba93c436-3edf-4ac4-8c88-075411927696.png)
+
+
+
+
+
+
+
 <h2>SQL Data Types</h2>
 <hr>
 <div class="w3-responsive">
