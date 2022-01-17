@@ -81,8 +81,8 @@
                 </tr>
             </tbody>
         </table>
-* <p></p>
-* 
+<p></p>
+
 <h2><i>Web API Controllers</i></h2>
 
 <p>It handles incoming HTTP requests and send response back to the caller.</p>
@@ -156,4 +156,90 @@
                 </tr>
             </tbody>
         </table>
+  
+  ![image](https://user-images.githubusercontent.com/97591175/149765911-a100967e-7e44-4313-97b3-f161ec063886.png)
+
 <p></p>
+  <h2>Web.config properties</h2>
+  
+  <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>
+                        Property
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>DependencyResolver
+                    </td>
+                    <td>Gets or sets the dependency resolver for dependency injection.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Filters
+                    </td>
+                    <td>Gets or sets the filters.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Formatters
+                    </td>
+                    <td>Gets or sets the media-type formatters.
+                    </td>
+                </tr>
+                <tr>
+                    <td>IncludeErrorDetailPolicy
+                    </td>
+                    <td>Gets or sets a value indicating whether error details should be included in error messages.
+                    </td>
+                </tr>
+                <tr>
+                    <td>MessageHandlers
+                    </td>
+                    <td>Gets or sets the message handlers.
+                    </td>
+                </tr>
+                <tr>
+                    <td>ParameterBindingRules
+                    </td>
+                    <td>Gets the collection of rules for how parameters should be bound.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Properties
+                    </td>
+                    <td>Gets the properties associated with this Web API instance.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Routes
+                    </td>
+                    <td>Gets the collection of routes configured for the Web API.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Services
+                    </td>
+                    <td>Gets the Web API services.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+  
+  
+  <h2>Web API Routing</h2>
+  
+  <p>Web API routing is similar to ASP.NET MVC Routing. It routes an incoming HTTP request to a particular action method on a Web API controller.</p>
+  
+  <p>Web API supports two types of routing:
+  <ul>
+    <li>Conventional Based Routing</li>
+    <li>Attribute</li>
+  </ul>
+  
+  </p>
