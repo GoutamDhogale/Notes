@@ -83,7 +83,77 @@
         </table>
 * <p></p>
 * 
-<h2><i></i></h2>
-<p></p>
-<h2><i></i></h2>
+<h2><i>Web API Controllers</i></h2>
+
+<p>It handles incoming HTTP requests and send response back to the caller.</p>
+<p>Web API controller is a class which can be created under the Controllers folder or any other folder under your project's root folder. The name of a controller class must end with "Controller" and it must be derived from System.Web.Http.ApiController class. All the public methods of the controller are called action methods.</p>
+
+![image](https://user-images.githubusercontent.com/97591175/149757529-02cf9ea4-d56d-415c-816a-7db3e53f69df.png)
+
+
+<p><b>IMPORTENT:<b>If you want to write methods that do not start with an HTTP verb then you can apply the appropriate http verb attribute on the method such as HttpGet, HttpPost, HttpPut etc. same as MVC controller.</p>
+        [HttpGet]
+        <br>
+        public IEnumerable<string> Values()
+        <br>
+        {
+        <br>
+            return new string[] { "value1", "value2" };
+        <br>
+        }</b>
+        <br>
+
+        
+
+
+
+
+  
+  
+  
+  
+  <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th class="w-50">
+                        Web API Controller
+                    </th>
+                    <th class="w-50">
+                        MVC Controller
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Derives from System.Web.Http.ApiController class
+                    </td>
+                    <td>Derives from System.Web.Mvc.Controller class.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Method name must start with Http verbs otherwise apply http verbs attribute. 
+                    </td>
+                    <td>Must apply appropriate Http verbs attribute.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Specialized in returning data.
+                    </td>
+                    <td>Specialized in rendering view.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Return data automatically formatted based on Accept-Type header attribute. Default to json or xml.
+                    </td>
+                    <td>Returns ActionResult or any derived type.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Requires .NET 4.0 or above
+                    </td>
+                    <td>Requires .NET 3.5 or above
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 <p></p>
