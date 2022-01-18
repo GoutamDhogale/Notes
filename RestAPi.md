@@ -52,7 +52,33 @@
 <p>RESTful resource caching. All resources should allow caching unless explicitly indicated that caching is not possible.</p>
 <p>Layered system. REST allows for an architecture composed of multiple layers of servers.</p>
 <p>Code on demand. Most of the time, a server will send back static representations of resources in the form of XML or JSON. However, when necessary, servers can send executable code to the client.</p>
-<h2><i></i></h2>
+<h2><i>API vs WebServices</i></h2>
+<table>
+  <tr>
+    <th>API</th>
+    <th>Webservice</th>
+  </tr>
+  <tr>
+    <td>API is a software interface that allows two applications to interact with each other without any user involvement.</td>
+    <td>Web service is a collection of open source protocols and standards used for exchanging data between systems or applications</td>
+  </tr>
+   <tr>
+    <td>API is used for any style of communication.</td>
+    <td>Web service is used for REST, SOAP and XML-RPC for communication</td>
+  </tr>
+   <tr>
+    <td>API supports HTTP/HTTPS protocol</td>
+    <td>Web service supports only HTTP protocol </td>
+  </tr>
+   <tr>
+    <td>API supports XML and JSON.</td>
+    <td>Web service supports XML</td>
+  </tr>
+   <tr>
+    <td>APIs are not web services.</td>
+    <td>All Web services are APIs</td>
+  </tr>
+  </table>
 
 <h2><i></i></h2>
 
