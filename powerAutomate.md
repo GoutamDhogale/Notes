@@ -50,6 +50,16 @@
 <td>Schedule an automation such as daily data upload to SharePoint or a database.</td>
 <td>Tasks that need to be automated on a schedule.</td>
 </tr>
+  <tr>
+    <td>UI</td>
+    <td>Any of the above</td>
+    <td>Record and automate the website</td>
+  </tr>
+  <tr>
+    <td>Business process flow</td>
+    <td>Any of the above</td>
+    <td>Guides the user through multistep process</td>
+  </tr>
 </tbody>
 </table>
 
