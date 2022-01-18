@@ -243,3 +243,25 @@
   </ul>
   
   </p>
+  
+  <h2><i>Parameter Binding in ASP.NET Web API</i></h2>
+  <p>It will helps to route the client side Http request to the Action method of the controller.It will map request to the action method.</p>
+  <p>Action Method of controller have one or more parameter like 
+<ul>
+  <li>Primitive </li>
+  <li>complex</li>
+
+</ul>
+</p>
+  
+  <p> Web API binds action method parameters with the URL's query string or with the request body depending on the parameter type.</p>
+  
+  <p>By default, if the parameter type is of .NET primitive types such as int, bool, double, string, GUID, DateTime, decimal, or any other type that can be converted from string type, then it sets the value of a parameter from the query string. And if the parameter type is the complex type, then Web API tries to get the value from the request body by default.</p>
+  
+  <p></p>
+  
+  <p></p>
+  
+  
+  
+  
